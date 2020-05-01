@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="6.834">
+  <testsuite name="ApiErrorHandler" errors="0" failures="0" skipped="0" timestamp="2020-05-01T21:15:51" time="3.091" tests="2">
+    <testcase classname="ApiErrorHandler when in env other than development should return error response without details" name="ApiErrorHandler when in env other than development should return error response without details" time="0.004">
+    </testcase>
+    <testcase classname="ApiErrorHandler when in development env should return detailed error response" name="ApiErrorHandler when in development env should return detailed error response" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="CRUDLog" errors="0" failures="0" skipped="0" timestamp="2020-05-01T21:15:51" time="3.114" tests="2">
+    <testcase classname="CRUDLog should send http response with error and log it" name="CRUDLog should send http response with error and log it" time="0.004">
+    </testcase>
+    <testcase classname="CRUDLog should not log errors in tests" name="CRUDLog should not log errors in tests" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Routes" errors="0" failures="0" skipped="0" timestamp="2020-05-01T21:15:54" time="0.292" tests="1">
+    <testcase classname="Routes should initialize routes" name="Routes should initialize routes" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2020-05-01T21:15:54" time="0.547" tests="1">
+    <testcase classname="App should expose the Express app" name="App should expose the Express app" time="0.057">
+    </testcase>
+  </testsuite>
+  <testsuite name="HealthCheckController" errors="0" failures="0" skipped="0" timestamp="2020-05-01T21:15:54" time="0.585" tests="1">
+    <testcase classname="HealthCheckController should respond with ok on health check" name="HealthCheckController should respond with ok on health check" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

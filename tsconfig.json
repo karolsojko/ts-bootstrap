@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "removeComments": false,
+        "skipLibCheck": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ],
+        "lib": [
+            "es6",
+            "dom",
+            "dom.iterable",
+            "scripthost",
+            "es7"
+        ],
+    },
+    "include": [
+        "bin/**/*",
+        "src/**/*",
+        "typings/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
